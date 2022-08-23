@@ -16,7 +16,7 @@ function draw()
     image(img, 0, 0, 640, 450);
     fill("#0000FF");
     text("Dog", 45, 75);
-    nofill();
+    noFill();
     stroke("#00FFFF");
     rect(30, 60, 450, 640);
 }
